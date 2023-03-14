@@ -12,7 +12,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 3px solid green; */
 }
 
 header {
@@ -48,10 +47,19 @@ p {
   font-size: 1.5em;
 }
 
-footer {
-  position: fixed;
+.app_footer_style {
+  position: sticky;
+  width: 80%;
   bottom: 0px;
-  border: 3px solid green;
+  /* border: 3px solid green; */
+  margin: 20px 0px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 15px;
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .sec_card_question {
@@ -174,4 +182,30 @@ li {
 
 .bookmark_button:active {
   background-color: red;
+}
+
+.btn_footer_style {
+  width: 60px;
+  height: 60px;
+  background-color: lightsalmon;
+  border-radius: 50%;
+  font-size: 3em;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_footer_style:active {
+  border: 2px solid green;
+}
+
+.btn_footer_style:hover {
+  border: 2px dotted tomato;
+  background-color: gray;
+}
+
+.btn_footer_style_this_side {
+  border: 2px dotted gray;
+  background-color: tomato;
 }
