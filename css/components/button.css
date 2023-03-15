@@ -7,14 +7,14 @@
   margin-bottom: 30px;
 }
 
-.bookmark_position {
-  width: 100%;
-  height: auto;
+.bookmark {
+  /* width: 100%; */
+  /* height: auto; */
 }
 
 .bookmark_style {
-  width: 10%;
-  height: auto;
+  /* width: 10%; */
+  /* height: auto; */
 }
 
 .bookmark_btn_marked {
@@ -31,13 +31,13 @@
 
 .bookmark_button {
   background-color: transparent;
-  width: 25px;
-  height: 40px;
-  border: 2px solid gray;
+  /* width: 25px;
+  height: 40px; */
+  /* border: 2px solid gray;
   position: absolute;
   top: -10px;
   right: 15px;
-  border-radius: 5px;
+  border-radius: 5px; */
 }
 
 .bookmark_button:hover {
@@ -48,41 +48,13 @@
   background-color: red;
 }
 
-.btn_footer_style {
-  width: 60px;
-  height: 50px;
-  background-color: lightsalmon;
-  border-radius: 20%;
-  font-size: 3em;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn_footer_style:active {
-  border: 2px solid green;
-}
-
-.btn_footer_style:hover {
-  border: 2px dotted tomato;
-  background-color: gray;
-}
-
-.btn_footer_style_this_side {
-  border: 2px dotted gray;
-  background-color: tomato;
-}
-
 .tag_style {
   width: 95%;
-  /* background-color: green; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.sec_bookmarks {
-  border: 2px double blue;
-  margin: 40px;
-  height: auto;
+.bookmark-button-svg {
+  width: 100%;
+  height: 100%;
 }
