@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+:root {
+  --appbackgroundcolor: orange;
+  --cardbackgroundcolor: lightgoldenrodyellow;
+}
+
+body {
+  max-width: 600px;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+main {
+  background-color: orange;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+  border-radius: 0 0 15px 15px;
+}
+
+h1 {
+  background-color: lightgoldenrodyellow;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+
+  border-radius: 15px;
+  padding: 10px 0px 20px 0px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: end;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.question_style {
+  margin: 20px;
+  background-color: transparent;
+}
