@@ -1,0 +1,14 @@
+.app_footer_style {
+  position: sticky;
+  width: 80%;
+  bottom: 0px;
+  /* border: 3px solid green; */
+  margin: 20px 0px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 15px;
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
