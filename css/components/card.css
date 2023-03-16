@@ -11,23 +11,29 @@
   position: relative;
 }
 
-.card--article {
+.bookmark {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.card__article {
   width: 90%;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.card--artikle__question {
+.card__artikle__question {
   margin: 20px 0;
 }
 
-.tags {
+.card__tags {
   width: 90%;
 }
 
-.tags ul {
+.card__tags ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -35,7 +41,7 @@
   align-items: end;
 }
 
-.tags li {
+.card__tags li {
   text-decoration: none;
   list-style: none;
   font-size: 1em;
