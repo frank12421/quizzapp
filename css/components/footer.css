@@ -8,12 +8,14 @@
   width: var(--globalcontainerwidth);
   margin: auto;
   margin-top: 20px;
+  height: auto;
+  padding: 10px 0 10px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
+/* 
 .footer__image {
   width: 70px;
   height: auto;
-}
+} */
