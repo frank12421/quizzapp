@@ -1,11 +1,13 @@
 .footer {
   background-color: var(--globalbackgroundcolor);
+  border-radius: 0 0 var(--globalradius) var(--globalradius);
 }
 .footer__container {
   background-color: var(--cardbackgroundcolor);
   border-radius: var(--globalradius);
   width: var(--globalcontainerwidth);
   margin: auto;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
