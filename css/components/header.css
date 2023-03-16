@@ -1,0 +1,16 @@
+.header {
+  background-color: var(--globalbackgroundcolor);
+  width: 100%;
+  border-radius: var(--globalradius) var(--globalradius) 0 0;
+  /* display: block; */
+
+  /* font-size: 2em; */
+}
+.header__container {
+  background-color: var(--cardbackgroundcolor);
+  width: var(--globalcontainerwidth);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: var(--globalradius);
+  text-align: center;
+}

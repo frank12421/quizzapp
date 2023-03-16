@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+:root {
+  --globalbackgroundcolor: orange;
+  --cardbackgroundcolor: lightgoldenrodyellow;
+  --globalradius: 15px;
+  --globalcontainerwidth: 85%;
+}
+
+body {
+  max-width: 600px;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+main {
+  background-color: var(--globalbackgroundcolor);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 var(--globalradius) var(--globalradius);
+}
+
+h1 {
+  font-size: 4em;
+  padding: 10px 0px 20px 0px;
+}
+
+p {
+  font-size: 1.5em;
+}

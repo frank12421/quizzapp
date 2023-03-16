@@ -1,0 +1,27 @@
+.card__button__answer {
+  width: auto;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: tomato;
+  margin-bottom: 30px;
+}
+
+.bookmark__button {
+  background-color: transparent;
+  border: none;
+}
+
+.bookmark__button__svg {
+  width: 60px;
+  height: auto;
+  fill: none;
+  stroke: #323232;
+  /* stroke-width: 1px; */
+  /* stroke-linejoin: round; */
+}
+
+.bookmark__button__svg:hover,
+.bookmark__button__svg:focus {
+  fill: darkgoldenrod;
+}

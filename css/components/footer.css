@@ -1,0 +1,18 @@
+.footer {
+  position: sticky;
+  width: var(--globalcontainerwidth);
+  /* bottom: 0px; */
+  margin: 20px 0px;
+  background-color: var(--cardbackgroundcolor);
+  border-radius: var(--globalradius);
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer__image {
+  width: 70px;
+  height: auto;
+}

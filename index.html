@@ -8,20 +8,31 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Quiz App</h1>
+    <header class="header">
+      <section class="header__container">
+        <h1>Quiz App</h1>
+      </section>
     </header>
     <main>
-      <section class="sec_card_question">
-        <!-- Fragen -->
-        <section class="bookmark_position">
-          <button type="button" class="bookmark_button">*</button>
+      <section class="cardcontainer">
+        <section class="bookmark">
+          <button type="button" class="bookmark__button">
+            <svg class="bookmark__button__svg" viewBox="0 0 24 24">
+              <path
+                d="M17 3C18.1046 3 19 3.89543 19 5L19 19.0536C19 20.5893 17.341 21.552 16.0077 20.7901L12.9923 19.067C12.3774 18.7157 11.6226 18.7157 11.0077 19.067L7.99228 20.7901C6.65897 21.552 5 20.5893 5 19.0536L5 5C5 3.89543 5.89543 3 7 3L17 3Z"
+              />
+            </svg>
+          </button>
         </section>
-        <article class="article_style">
-          <p class="question_style">Hier tauchen dann die Fragen auf, oder ?</p>
-          <button class="button_style" type="button">Show Answer</button>
+        <article class="card__article">
+          <p class="card__artikle__question">
+            Hier tauchen dann die Fragen auf, oder ?
+          </p>
+          <button class="card__button__answer" type="button">
+            Show Answer
+          </button>
         </article>
-        <section class="tag_style">
+        <section class="card__tags">
           <ul>
             <li>#html</li>
             <li>#flexbox</li>
@@ -29,15 +40,25 @@
           </ul>
         </section>
       </section>
-      <section class="sec_card_bookmarked">
-        <section class="bookmark_position">
-          <button type="button" class="bookmark_btn_marked">*</button>
+      <section class="cardcontainer">
+        <section class="bookmark">
+          <button type="button" class="bookmark__button">
+            <svg class="bookmark__button__svg" viewBox="0 0 24 24">
+              <path
+                d="M17 3C18.1046 3 19 3.89543 19 5L19 19.0536C19 20.5893 17.341 21.552 16.0077 20.7901L12.9923 19.067C12.3774 18.7157 11.6226 18.7157 11.0077 19.067L7.99228 20.7901C6.65897 21.552 5 20.5893 5 19.0536L5 5C5 3.89543 5.89543 3 7 3L17 3Z"
+              />
+            </svg>
+          </button>
         </section>
-        <article class="article_style">
-          <p class="question_style">Hier tauchen dann die Fragen auf, oder ?</p>
-          <button class="button_style" type="button">Show Answer</button>
+        <article class="card__article">
+          <p class="card__artikle__question">
+            Hier tauchen dann die Fragen auf, oder ?
+          </p>
+          <button class="card__button__answer" type="button">
+            Show Answer
+          </button>
         </article>
-        <section class="tag_style">
+        <section class="card__tags">
           <ul>
             <li>#html</li>
             <li>#flexbox</li>
@@ -45,15 +66,19 @@
           </ul>
         </section>
       </section>
-      <!-- </section> -->
-      <footer class="app_footer_style">
-        <a
-          class="btn_footer_style btn_footer_style_this_side"
-          href="/index.html"
-          >H</a
-        >
-        <a class="btn_footer_style" href="/bookmarks.html">*</a>
-        <a class="btn_footer_style" href="/profile.html">P</a>
+      <footer class="footer">
+        <a href="/index.html">
+          <img class="footer__image" src="/picture/home-light.svg" alt="home"
+        /></a>
+        <a href="/bookmarks.html">
+          <img
+            class="footer__image"
+            src="/picture/bookmark-light.svg"
+            alt="home"
+        /></a>
+        <a href="/profile.html">
+          <img class="footer__image" src="/picture/person-light.svg" alt="home"
+        /></a>
       </footer>
     </main>
   </body>

@@ -1,0 +1,52 @@
+.cardcontainer {
+  width: var(--globalcontainerwidth);
+  background-color: var(--cardbackgroundcolor);
+  margin-top: 20px;
+  border-radius: var(--globalradius);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.bookmark {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.card__article {
+  width: 90%;
+  /* padding-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__artikle__question {
+  margin: 20px 0;
+}
+
+.card__tags {
+  width: 90%;
+}
+
+.card__tags ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: end;
+}
+
+.card__tags li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 5px;
+}
