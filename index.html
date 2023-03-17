@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QuizzApp</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="./index.js" defer></script>
+    <script src="/js/index.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -17,8 +17,8 @@
     <main>
       <section class="cardcontainer">
         <section class="bookmark">
-          <button type="button" class="bookmark__button">
-            <svg class="bookmark__button__svg" viewBox="0 0 24 24">
+          <button type="button" class="bookmark__button" data-js="bookmarkButtonCard">
+            <svg class="bookmark__button__svg" viewBox="0 0 24 24" data-js="bookmarkButtonSvg">
               <path
                 d="M17 3C18.1046 3 19 3.89543 19 5L19 19.0536C19 20.5893 17.341 21.552 16.0077 20.7901L12.9923 19.067C12.3774 18.7157 11.6226 18.7157 11.0077 19.067L7.99228 20.7901C6.65897 21.552 5 20.5893 5 19.0536L5 5C5 3.89543 5.89543 3 7 3L17 3Z"
               />
@@ -29,7 +29,7 @@
           <p class="card__artikle__question">
             Hier tauchen dann die Fragen auf, oder ?
           </p>
-          <button class="card__button__answer" type="button">
+          <button class="card__button__answer" type="button" data-js="buttonAnswer">
             Show Answer
           </button>
         </article>
@@ -43,7 +43,7 @@
       </section>
       <section class="cardcontainer">
         <section class="bookmark">
-          <button type="button" class="bookmark__button" data-js="button-Answer">
+          <button type="button" class="bookmark__button">
             <svg class="bookmark__button__svg" viewBox="0 0 24 24">
               <path
                 d="M17 3C18.1046 3 19 3.89543 19 5L19 19.0536C19 20.5893 17.341 21.552 16.0077 20.7901L12.9923 19.067C12.3774 18.7157 11.6226 18.7157 11.0077 19.067L7.99228 20.7901C6.65897 21.552 5 20.5893 5 19.0536L5 5C5 3.89543 5.89543 3 7 3L17 3Z"
