@@ -23,10 +23,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .card__artikle__question {
-  margin: 20px 0;
+  margin: auto;
+}
+
+.card__article__answer {
+  display: none;
+  color: darkred;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.card__article__answer-show {
+  display: block;
+  color: green;
 }
 
 .card__tags {

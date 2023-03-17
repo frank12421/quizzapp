@@ -23,6 +23,22 @@
 
 .bookmark__button__svg:hover,
 .bookmark__button__svg:focus {
+  fill: rgba(184, 135, 11, 0.484);
+}
+
+.bookmark__button__svg--marked {
+  fill: darkgoldenrod;
+}
+
+.footer__button__svg {
+  width: 70px;
+  height: auto;
+  fill: none;
+  stroke: #323232;
+}
+
+.footer__button__svg:hover,
+.footer__button__svg:focus {
   fill: darkgoldenrod;
 }
 
