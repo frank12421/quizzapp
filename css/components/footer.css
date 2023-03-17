@@ -1,10 +1,13 @@
 .footer {
-  position: sticky;
-  width: var(--globalcontainerwidth);
-  /* bottom: 0px; */
-  margin: 20px 0px;
+  background-color: var(--globalbackgroundcolor);
+  border-radius: 0 0 var(--globalradius) var(--globalradius);
+}
+.footer__container {
   background-color: var(--cardbackgroundcolor);
   border-radius: var(--globalradius);
+  width: var(--globalcontainerwidth);
+  margin: auto;
+  margin-top: 20px;
   height: auto;
   padding: 5px 0px;
   display: flex;

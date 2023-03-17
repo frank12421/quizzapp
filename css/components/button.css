@@ -41,3 +41,17 @@
 .footer__button__svg:focus {
   fill: darkgoldenrod;
 }
+
+.footer__button__svg {
+  width: 70px;
+  height: auto;
+  fill: none;
+  stroke: #323232;
+  /* stroke-width: 1px; */
+  /* stroke-linejoin: round; */
+}
+
+.footer__button__svg:hover,
+.footer__button__svg:focus {
+  fill: darkgoldenrod;
+}
