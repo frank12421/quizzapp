@@ -1,6 +1,21 @@
-const buttonAnswer = document.querySelector('[data-js="buttonAnswer"]');
-buttonAnswer.addEventListener("click", () => {
-  console.log("Click an Button Show Answer");
+const cardArtikelAnswer = document.querySelector(
+  '[data-js="cardArtikelAnswer"]'
+);
+
+const cardButtonAnswer = document.querySelector('[data-js="cardButtonAnswer"]');
+const cardArticleAnswer = document.querySelector(
+  '[data-js="cardArtikelAnswer"]'
+);
+
+cardButtonAnswer.addEventListener("click", () => {
+  cardArticleAnswer.classList.toggle("card__article__answer-show");
+  const myText = cardButtonAnswer.innerText;
+  console.log(myText);
+  if (myText === "Show Answer") {
+    cardButtonAnswer.innerText = "Hide Answer";
+  } else {
+    cardButtonAnswer.innerText = "Show Answer";
+  }
 });
 
 // ---- Card Bookmark click Start ------

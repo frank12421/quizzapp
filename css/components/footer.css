@@ -6,13 +6,13 @@
   background-color: var(--cardbackgroundcolor);
   border-radius: var(--globalradius);
   height: auto;
-  padding: 10px 0px;
+  padding: 5px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
+/* 
 .footer__image {
-  width: 70px;
+  width: 60px;
   height: auto;
-}
+} */
