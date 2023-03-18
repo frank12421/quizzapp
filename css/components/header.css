@@ -14,3 +14,13 @@
   border-radius: var(--globalradius);
   text-align: center;
 }
+
+.cardscrolltopout {
+  background-color: var(--cardbackgroundcolor);
+  width: var(--globalcontainerwidth);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: var(--globalradius) var(--globalradius) 0px 0px;
+  text-align: center;
+  height: 20px;
+}
