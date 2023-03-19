@@ -4,11 +4,22 @@
   margin-top: 20px;
   border-radius: var(--globalradius);
   padding: 10px;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  /* position: relative; */
+}
+
+.cardscrolltopout {
+  position: sticky;
+  background-color: green;
+  /* width: var(--globalcontainerwidth); */
+  /* margin: auto; */
+  /* margin-top: 20px; */
+  /* border-radius: var(--globalradius) var(--globalradius) 0px 0px; */
+  /* text-align: center; */
+  height: 30px;
 }
 
 .bookmark {
